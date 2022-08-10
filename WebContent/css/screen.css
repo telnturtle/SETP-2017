@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+/*** The Essential Code ***/
+
+#wrap {
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+}
+#header {
+    width: auto;
+    height: 48px;
+}
+#main-menu {
+    width: auto;
+    height: 35px;    
+}
+header {
+	height: 100px;
+	background: blue;
+}
+
+hgroup h1 {
+	color: white;
+	padding: 10px 0 0 20px;
+}
+
+hgroup h5 {
+	color: white;
+	padding-left: 20px;
+}
+
+nav {
+	width: auto;
+	height: 30px;
+	background: skyblue;
+	margin-left: 20px;
+}
+#container {
+    float: left;
+    width: 100%;
+}
+#content {
+    margin-left: 175px;
+    margin-right: 205px;
+}
+#extra {
+    float: left;
+    width: 205px; 
+}
+#footer {
+    clear: both;
+    height: 70px;
+}
+/*** Just for Looks ***/
+#footer {
+    font-size: large;
+    text-align: center;
+    background: #999;
+    margin-top: 16px;
+}
+#main-menu {
+    font-size: large;
+    text-align: center;
+    background: #DAEAAA;
+}
+#content {
+    font-size: large;
+    text-align: center;
+    background: #DDD;
+    height: 100%;
+    
+}
+
+#extra {
+    float: left;
+    width: 205px;
+    margin-left: -205px; 
+    background: #F66;
+    height: 100%;
+    text-align: center;
+}
+ul#nav li {
+    float: left;
+    padding: 0 17px 0 8px;
+    background: url('../images/bull_circle.gif') no-repeat 0 50%;
+}
+
+ul#nav li a {
+    text-decoration: none;
+    color: #FFF;
+}
+ul#nav li a:hover {
+    text-decoration: underline;
+    background: none;
+    color: #FFF;
+}
+#main-menu {
+   margin-top: 15px;
+    margin-bottom: 15px;
+    width: 1000px;
+    height: 35px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;    
+    background: #92B91C;    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;   
+}
+
+#sidebar h1 {
+    margin: 0;
+    padding: 14px;
+    background: #92B91C;
+    color: #FFF;
+    font-size: 16px;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#sidebar {
+    float: left;
+    width: 175px;
+    margin-left: -100%;
+    background: #66F;
+    height: auto;
+    text-align: center;
+     border: 1px solid #DAEAAA;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+
+
+#sidebar a {
+    display: block;
+    padding: 6px 10px 6px 10px;
+    color: #64615D;
+    background: #DAEAAA;
+    text-decoration: none;
+    font-weight: bold;
+}
+#sidebar a:hover {
+    background-color: #EDFEBA;
+    color: #64615D;
+}
+
+#sidebar li li a {
+    display: block;
+    color: #64615D;
+    padding: 5px 3px 4px 17px;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+    font-weight: normal;
+    background: #FFF url('../images/circle.gif') no-repeat 5% 50%;
+}

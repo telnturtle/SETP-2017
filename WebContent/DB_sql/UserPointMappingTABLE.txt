@@ -1,0 +1,9 @@
+CREATE TABLE UserPointMapping (
+userID varchar2(10) NOT NULL,
+point number(8) NOT NULL default 0,
+recent date,
+PRIMARY KEY(userID),
+FOREIGN KEY (userID)
+    REFERENCES userInfo (userID)
+    ON DELETE CASCADE
+);
